@@ -1,0 +1,123 @@
+:root {
+  filter: contrast(1);
+  font-family: Inter, sans-serif !important;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center
+}
+
+h1 {
+  transition: all 0.2s ease;
+  border-radius: 8px;
+  padding: 4px 0;
+  margin: 10px 0;
+}
+
+h1:hover {
+  padding: 4px 24px;
+  background-color: #0c0c0c;
+}
+
+body {
+  height: 100%;
+  width: auto;
+  box-sizing: border-box;
+  background-color: #1c1c1c;
+
+  color: rgba(255, 255, 255, .9) !important;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.form_reg {
+  background-color: #252525;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+  border-radius: 8px;
+
+}
+
+.form_reg span {
+  color: #555555;
+  width: 100%;
+  text-align: center;
+  cursor: default;
+  padding: 14px 0;
+}
+
+.form_reg label {
+  width: 100%;
+  text-align: center;
+}
+
+button, button:active, button:focus {
+  border: none;
+}
+
+input, input:active, input:focus {
+  border: none;
+  stroke: none;
+  outline: none;
+}
+
+input[type="submit"], input[type="submit"]:active, input[type="submit"]:focus {
+  border: none;
+}
+
+button, input[type="submit"] {
+  display: block;
+  min-width: 75px;
+  height: fit-content;
+  filter: contrast(1);
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.2s ease;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 8px;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0;
+
+  color: rgba(255, 255, 255, .9) !important;
+}
+
+.colored-button {
+  background-color: #3e3e3e !important;
+  box-shadow: rgba(0, 0, 0, .5) 0 0 10px;
+}
+
+.colored-button.attention {
+  background-color: #dcdcdc !important;
+  color: black !important;
+}
+
+.colored-button:hover {
+  padding: 8px 40px;
+}
+
+input {
+  background-color: #3e3e3e !important;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-family: Inter, sans-serif !important;
+  color: whitesmoke;
+}
+
+.login-body {
+  padding-top: 32px;
+  gap: 20px;
+}
+
